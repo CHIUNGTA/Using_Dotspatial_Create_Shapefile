@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create_Point_ShpFile", "Create_Point_ShpFile\Create_Point_ShpFile.csproj", "{B975C388-6B04-4ED3-8F49-5F3678ADC405}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create_Point_ShapeFile", "Create_Point_ShpFile\Create_Point_ShapeFile.csproj", "{B975C388-6B04-4ED3-8F49-5F3678ADC405}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create_Line_ShapeFile", "Create_Line_ShapeFile\Create_Line_ShapeFile.csproj", "{1896F19C-4B87-4FA9-B2AF-1380A286C545}"
 EndProject
