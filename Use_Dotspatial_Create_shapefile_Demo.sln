@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create_Point_ShapeFile", "Create_Point_ShpFile\Create_Point_ShapeFile.csproj", "{B975C388-6B04-4ED3-8F49-5F3678ADC405}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create_Line_ShapeFile", "Create_Line_ShapeFile\Create_Line_ShapeFile.csproj", "{1896F19C-4B87-4FA9-B2AF-1380A286C545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create_Point_ShapeFile", "Create_Point_ShapeFile\Create_Point_ShapeFile.csproj", "{E7D6D5F5-826C-4E9F-98D6-A2327C2B592F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B975C388-6B04-4ED3-8F49-5F3678ADC405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B975C388-6B04-4ED3-8F49-5F3678ADC405}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B975C388-6B04-4ED3-8F49-5F3678ADC405}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B975C388-6B04-4ED3-8F49-5F3678ADC405}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1896F19C-4B87-4FA9-B2AF-1380A286C545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1896F19C-4B87-4FA9-B2AF-1380A286C545}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1896F19C-4B87-4FA9-B2AF-1380A286C545}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1896F19C-4B87-4FA9-B2AF-1380A286C545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D6D5F5-826C-4E9F-98D6-A2327C2B592F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D6D5F5-826C-4E9F-98D6-A2327C2B592F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D6D5F5-826C-4E9F-98D6-A2327C2B592F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D6D5F5-826C-4E9F-98D6-A2327C2B592F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Net;
 using DotSpatial.Data;
 using DotSpatial.Topology;
-using System.Net;
 using Newtonsoft.Json;
 
-namespace Create_Point_ShpFile
+namespace Create_Point_ShapeFile
 {
     class Program
     {

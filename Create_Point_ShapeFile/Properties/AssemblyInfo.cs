@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 組件的一般資訊是由下列的屬性集控制。
 // 變更這些屬性的值即可修改組件的相關
 // 資訊。
-[assembly: AssemblyTitle("Create_Point_ShpFile")]
+[assembly: AssemblyTitle("Create_Point_ShapeFile")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Create_Point_ShpFile")]
+[assembly: AssemblyProduct("Create_Point_ShapeFile")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
-[assembly: Guid("b975c388-6b04-4ed3-8f49-5f3678adc405")]
+[assembly: Guid("e7d6d5f5-826c-4e9f-98d6-a2327c2b592f")]
 
 // 組件的版本資訊由下列四個值所組成: 
 //

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B975C388-6B04-4ED3-8F49-5F3678ADC405}</ProjectGuid>
+    <ProjectGuid>{E7D6D5F5-826C-4E9F-98D6-A2327C2B592F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Create_Point_ShpFile</RootNamespace>
-    <AssemblyName>Create_Point_ShpFile</AssemblyName>
+    <RootNamespace>Create_Point_ShapeFile</RootNamespace>
+    <AssemblyName>Create_Point_ShapeFile</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
