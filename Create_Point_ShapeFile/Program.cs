@@ -32,14 +32,16 @@ namespace Create_Point_ShapeFile
             //ReadTxtFile
             System.Text.Encoding encode = System.Text.Encoding.GetEncoding("big5");
             StreamReader file = new StreamReader(FileAddress, encode);
+            file.ReadLine();
             //Create Success File & Fail File
             string line;
             var Id = 0;
-            while ((line = file.ReadLine()) != null && Id <= 200)
+            while ((line = file.ReadLine()) != null)
             {
                 //Rootobject obj = NewMethod(line);
-                //將文字包內容，傳送給google map api進行經緯度換算
-                string APIUrl = string.Format("https://maps.googleapis.com/maps/api/geocode/json?address={0}&&sensor=false&language=zh-tw", line);
+                //將文字包內容，傳送給google map api進行經緯度搜尋
+                string[] Readline_Array = line.Split(',');
+                string APIUrl = string.Format("https://maps.googleapis.com/maps/api/geocode/json?address={0}&&sensor=false&language=zh-tw", Readline_Array[1]);
                 var buffer = new WebClient().DownloadData(APIUrl);
                 var json = Encoding.UTF8.GetString(buffer);
                 var obj = JsonConvert.DeserializeObject<Rootobject>(json);
@@ -61,7 +63,7 @@ namespace Create_Point_ShapeFile
             }
             Console.WriteLine("轉換完成");
             Console.ReadLine();
-            fs.SaveAs("D:\\轉換完成.shp", true);
+            fs.SaveAs("D:\\test_shapefile\\Point_Demo.shp", true);
         }
     }
 }
